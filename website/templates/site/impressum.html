@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Impressum{% endblock %}
+
+{% block style %}
+    <style>
+        dt {
+            float: left;
+            width: 90px;
+            font-weight: bold;
+        }
+
+        dd {
+            margin-left: 100px;
+            margin-bottom: 0.4rem;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="window-wrapper">
+        <div class="window-box">
+            <div class="window-header">
+                <h2 class="title">Impressum</h2>
+            </div>
+            <div class="window-content">
+                <p class="text-center">Verantwortlich für den Inhalt dieser Seite ist:</p>
+                <dl class="impressum">
+                    <dt>Name:</dt>      <dd>Maximilian Bohl</dd>
+                    <dt>Telefon:</dt>   <dd>+49 176 72900505</dd>
+                    <dt>E-Mail:</dt>    <dd>max@cutcrew.de</dd>
+                    <dt>Anschrift:</dt> <dd>Sölterweg 10</dd>
+                    <dd>38384 Gevensleben</dd>
+                    <dd>Deutschland</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+{% endblock %}

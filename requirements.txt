@@ -1,0 +1,11 @@
+flask
+flask-bcrypt
+flask-socketio
+flask-sqlalchemy
+flask-limiter
+flask-migrate
+pymysql
+python-dotenv
+watchdog
+gunicorn
+eventlet

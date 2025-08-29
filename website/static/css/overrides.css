@@ -1,0 +1,23 @@
+:root {
+    --bs-primary:   #F4A261;
+    --bs-secondary: #E76F51;
+    --bs-success:   #FFD166;
+    --bs-danger:    #D62828;
+    --bs-warning:   #F6C89F;
+    --bs-info:      #FFFFFF;
+    --bs-light:     #CCCCCC;
+    --bs-dark:      #1A1A1A;
+    --bs-black:     #000000;
+
+    --bs-body-bg:   #000000;
+    --bs-body-color:#ffffff;
+}
+
+.text-primary { color: #F4A261 !important; }
+.text-secondary { color: #E76F51 !important; }
+.text-success { color: #FFD166 !important; }
+.text-danger { color: #D62828 !important; }
+.text-warning { color: #F6C89F !important; }
+.text-info { color: #FFFFFF !important; }
+.text-light { color: #CCCCCC !important; }
+.text-dark { color: #1A1A1A !important; }
